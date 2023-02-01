@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#error{
+    text-align: center;
+    color: red;
+    font-size: large;
+}
+.hide{
+    display:none;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+input{
+    width: 90vw;
+    display: block;
+    margin-block: 10px;
+    height: 30px;
+    outline: none;
+    background-color: black;
+    border: white 0.5px solid 0.5;
+    color: white;
+}
+.cords{
+    position: relative;
+}
+.lat{
+    display: inline;
+}
+.long{
+    display: inline;
+    position: absolute;
+    left: 50%;
+}
+.container-data{
+    border: 2px black solid;
+    padding: 30px;
+    margin-top: 20px;
+}
+.container-data p{
+    font-size: large;
+    margin-block: 12px;
+}
+.container{
+    padding: 30px;
+    background-color: white;
+    color: black;
+    width: 100vw;
+}
+.search-sec{
+    margin: 30px;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+.result{
+    border: 2px white solid;
+    background-color: black;
+    color: white;
+}
+.result-container{
+    margin: 30px;
+}
+.hide{
+    display:none;
+}
